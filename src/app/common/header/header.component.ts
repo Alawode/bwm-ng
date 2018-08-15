@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'bwm-header',
+  templateUrl: './header.component.html',
+//   styleUrls: ['./header.component.css']
 })
-export class AppComponent {
+
+export class HeaderComponent {
   
   
   componentTitle = 'I am app component from component.ts'
